@@ -1,0 +1,65 @@
+GIT CHEAT SHEET
+===============
+
+
+Bash basics
+===========
+Change directory:   		cd <dir>
+List directory:				ls
+List with details:  		ls -l
+Find files:					find . -type f | grep <search-string>
+Copy files:					cp <file1> <file2>
+Move / Rename files:		mv <file1> <file2>
+
+
+Repository location
+===================
+Your remote repository is in c:/Users/<username>/gitrepository/...
+
+Git bash path for this will be: ~/gitrepository
+
+(~ equates to home)
+
+
+Checkout an existing branch
+===========================
+
+		git checkout <branch>
+
+
+Get latest changes for a branch from GitHub remote
+==================================================
+
+		git pull origin <branch>
+
+
+Create a new branch
+===================
+		
+		git checkout -b  <branch-name>
+
+NB: Branch wont exist until to you push changes on it
+
+
+Check the current status of your branch (are there modifications you have made locally etc)
+=======================================
+
+		git status
+
+
+Add a change to your local repo tracking (including new and existing files)
+========================================
+
+		git add <file>
+
+
+Commit added files with a comment
+=================================
+
+		git commit -m "<my comment>"
+
+
+Push commits to the remote server (publish)
+=================================
+
+		git push origin <branch>
