@@ -344,12 +344,23 @@ body > .row.full-width {
   background-repeat: no-repeat;
 }
 
-body > row.full-width-image {
+body > .row.full-width-image {
   margin-top: 1.875em;
   margin-bottom: 3.125em;
   min-height: 25em;
   max-width: none;
-  background-image: url('../images/automatedVersioning.Jpg');
+  background-image: url('../images/automatedVersioning.jpg');
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+body > .row.full-width-image-av {
+  margin-top: 1.875em;
+  margin-bottom: 3.125em;
+  min-height: 25em;
+  max-width: none;
+  background-image: url('../images/automatedVersioning.jpg');
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
