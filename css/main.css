@@ -336,7 +336,8 @@ body > .row.full-width {
   max-width: none;
   width: 100%;
   background-color: #020202;
-  background-image: url('https://sdrive-storage.s3.amazonaws.com/rsd/5535a48fd56d96/97816459/frambozen-bckgr.jpg');
+  /*background-image: url('https://sdrive-storage.s3.amazonaws.com/rsd/5535a48fd56d96/97816459/frambozen-bckgr.jpg');*/
+  background-image: url('../images/swansea_bay3.jpg');
   background-attachment: fixed;
   background-position: left top;
   background-size: cover;
@@ -348,7 +349,18 @@ body > .row.full-width-image {
   margin-bottom: 3.125em;
   min-height: 25em;
   max-width: none;
-  background-image: url('http://rsd.coffeecup.com/storage/themes/the-coast/spices-cropped.jpg');
+  background-image: url('../images/automatedVersioning.jpg');
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+body > .row.full-width-image-av {
+  margin-top: 1.875em;
+  margin-bottom: 3.125em;
+  min-height: 25em;
+  max-width: none;
+  background-image: url('../images/automatedVersioning.jpg');
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
