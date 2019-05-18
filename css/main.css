@@ -368,11 +368,12 @@ body > .row.full-width-image-av {
 
 body > .row.full-width-image.vibe {
   margin-bottom: 0;
-  background-image: url('http://rsd.coffeecup.com/storage/themes/the-coast/vibe.jpg');
+  background-image: url('../images/screen_shot.jpg');
 }
 
 body > .row > [class*='coffee-span-'].column-4 {
   min-height: 40.625em;
+  max-width: none;
   background-image: -webkit-linear-gradient(180deg, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, .35) 25%, rgba(0, 0, 0, .5) 40%, rgba(0, 0, 0, .9) 83%);
   background-image:    -moz-linear-gradient(180deg, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, .35) 25%, rgba(0, 0, 0, .5) 40%, rgba(0, 0, 0, .9) 83%);
   background-image:     -ms-linear-gradient(180deg, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, .35) 25%, rgba(0, 0, 0, .5) 40%, rgba(0, 0, 0, .9) 83%);
