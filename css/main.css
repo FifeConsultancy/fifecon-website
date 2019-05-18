@@ -325,6 +325,12 @@ input[type=text].input-1 {
   max-width: 23.214285714285715em;
 }
 
+input[type=text].input-2 {
+  margin-bottom: .21428571428571427em;
+  max-width: 46.428285714285715em;
+}
+
+
 /* Layout Elements */
 
 body > .row {
@@ -371,6 +377,11 @@ body > .row.full-width-image.vibe {
   background-image: url('../images/screen_shot.jpg');
 }
 
+body > .row.full-width-image.vibe2 {
+  margin-bottom: 0;
+  background-image: url('../images/build_release.png');
+}
+
 body > .row > [class*='coffee-span-'].column-4 {
   min-height: 40.625em;
   max-width: none;
@@ -385,7 +396,7 @@ body > .row.footer-row {
   padding-bottom: 0;
   max-width: none;
   background-color: #000;
-  background-image: url('http://rsd.coffeecup.com/storage/themes/the-coast/sunset-cropped.jpg');
+  background-image: url('../images/swansea_sunset.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -455,6 +466,14 @@ a.social-image.social-icon-1 {
 .row > [class*='coffee-span-'] > .container.container-3.right {
   float: left;
   width: auto;
+}
+
+.row > [class*='coffee-span-'] > .container.container-4 {
+  float: 50%;
+  margin-left: 50%;
+  margin-right: auto;
+  min-width: 50em;
+  width: 100em;
 }
 
 .row > [class*='coffee-span-'] .subgrid > .row > [class*='coffee-span-'].subgrid-column-1 {
@@ -603,6 +622,13 @@ div.responsive-picture.impression {
 
   .row > [class*='coffee-span-'] > .container.container-3.right {
     float: none;
+    width: 50%;
+  }
+  
+   .row > [class*='coffee-span-'] > .container.container-4 {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
     width: 50%;
   }
 
